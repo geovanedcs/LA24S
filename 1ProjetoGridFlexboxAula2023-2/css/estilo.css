@@ -1,0 +1,175 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    margin: 0;
+
+
+}
+
+:root {
+    --dark: #343a40;
+    --borderradius5: 5px;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+.bg-dark{
+    background-color: var(--dark);
+}
+
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  /* border: 1px solid #f00; */
+  border-radius: var(--borderradius5);
+}
+
+.menu a:hover{
+    background-color: #686868;
+    padding: 10px;
+    /* border-radius: 5px; */
+}
+
+.menu li{
+    display: inline;
+    padding: 10px;
+    /* border: solid 1px aqua; */
+}
+
+.menu a:focus{
+    background-color: #686868;
+
+}
+
+.menu a:active{
+    color: aqua;
+}
+
+/* .menu ul{
+    border: solid 1px #4aff25;
+    padding: 10px;
+} */
+
+.logo img{
+  width: 40px;
+  height: 40px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* height: 20vh; */
+}
+
+.border{
+    border: 2px solid #f00;
+}
+
+.grow1{
+    flex-grow: 1;
+}
+
+.menu ul{
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+}
+
+/* banner */
+
+.banner{
+    display: flex;
+
+}
+
+.banner img{
+    width: 50%;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    box-shadow: 0 2px 5px 1px rgb(0 0 0 / 25%);
+    text-shadow: 0 2px 5px rgb(0 0 0 / 50%);
+}
+
+.btn-blue{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-green{
+    background-color: #28a745;
+    color: #fff;
+}
+
+.banner p, .banner h1, .banner h2{
+    padding: 10px;
+}
+
+.banner-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.banner{
+    background-image: url('../img/hero-bg.png');
+    background-repeat: space;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+.servicos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    /* align-items: stretch; */
+    justify-content: space-evenly;
+}
+
+.div-card{
+    max-width: 13em;
+    border-radius: 1em;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 2px 5px 1px rgb(0 0 0 / 25%);
+    text-align: center;
+}
+
+.div-card img{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.div-card h1{
+    color: rgb(9, 9, 116);
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .5rem;
+}
+
+.div-card p{
+    color: #002955;
+    font-size: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
