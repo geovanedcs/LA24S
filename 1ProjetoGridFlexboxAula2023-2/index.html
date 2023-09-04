@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap" rel="stylesheet">
+   
     <title>Projeto Flexbox e Grid</title>
 </head>
 
@@ -53,56 +55,111 @@
     </div>
   </section>   
   
-  <main>
-    <section>
-        <h1>
-            Galeria de Imagens
-        </h1>
-        <section>
-            imagens da galeria
+   <main>
+     <section class="gallery">
+        <h1 class="text-center">Galeria de imagens</h1>
+        <section class="card-gallery">
+            <article class="h-2 w-2">
+                <img src="#" alt="img1">
+                <h1>Titulo da imagem</h1>
+            </article>
+            <article class="h-1 w-2">
+                <img src="#" alt="img2">
+                <h1>Titulo da imagem</h1>
+            </article>
+            <article class="h-2 w-2">
+                <img src="#" alt="img3">
+                <h1>Titulo da imagem</h1>
+            </article>
+            <article class="h-1 w-2">
+                <img src="#" alt="img4">
+                <h1>Titulo da imagem</h1>
+            </article>
+            <article class="h-3 w-2">
+                <img src="#" alt="img5">
+                <h1>Titulo da imagem</h1>
+            </article>
+            <article class="h-1 w-1">
+                <img src="#" alt="img6">
+                <h1>Titulo da imagem</h1>
+            </article>
+            <article class="h-1 w-1">
+                <img src="#" alt="img7">
+                <h1>Titulo da imagem</h1>
+            </article>
+            <article class="h-1 w-2">
+                <img src="#" alt="img8">
+                <h1>Titulo da imagem</h1>
+            </article>
+            <article class="h-1 w-4">
+                <img src="#" alt="img9">
+                <h1>Titulo da imagem</h1>
+            </article>
         </section>
-    </section>
-    <section>
-        <h1>
-            Serviços
-        </h1>
-        <section class="servicos">
-            <div class="cards">
-                <div class="div-card">
-                    <img src="./img/communication-ge3fff02e4_640.png" alt="Atendimento">
-                    <h1>Atendimento ao Cliente</h1>
-                    <p>
-                        Tenha acesso a nossa plataforma de suporte ao cliente. Esclareça todas as duvidas ou converse com um dos nossos técnicos.
-                    </p>
-                </div>
-                <div class="div-card">
-                    <img src="./img/teaching-g437b2aaed_640.png" alt="Agendamento">
-                    <h1>Agende seu treinamento</h1>
-                    <p>
-                        Agende seu treinamento e da sua equipe. Escolha o(s) tema(s) e agende a data desejada.    
-                    </p>
-                </div>
-                <div class="div-card">
-                    <img src="./img/businessmen-g6b9998cdd_640.png" alt="Trabalhe conosco">
-                    <h1>Faça parte da nossa equipe</h1>
-                    <p>
-                        Venha fazer parte da nossa equipe. Envie seu curriculo que entramos em contato.
-                    </p>
-                </div>
+     </section>
+
+     <section>
+        <h1 class="text-center">Serviços</h1>
+        <section class="services">
+            <div class="card-services">
+                <img src="img/communication-ge3fff02e4_640.png" alt="">
+                <h1>Atendimento ao Cliente</h1>
+                <p>Tenha acesso a nossa plataforma de suporte ao cliente.
+                    Esclareça toda as suas dúvidas ou converse com um de nossos técnicos.</p>
+            </div>
+
+            <div class="card-services">
+                <img src="img/teaching-g437b2aaed_640.png" alt="">
+                <h1>Agende seu treinamento</h1>
+                <p>Agende seu treinamento e da sua equipe.Escolha o(s) tema(s) e agende a data desejada.</p>
+            </div>
+
+            <div class="card-services">
+                <img src="img/businessmen-g6b9998cdd_640.png" alt="">
+                <h1>Faça parte da nossa equipe</h1>
+                <p>Venha fazer parte da nossa equipe. Envie seu currículo que entraremos em contato. </p>
             </div>
         </section>
-    </section>
-    <section>
-        <h1>
-            Depoimentos
-        </h1>
-        <section>
-            Depoimentos
-        </section>
-    </section>
+     </section>
 
-  </main>
-  
+     <section>
+        <h1 class="text-center">Depoimentos</h1>
+        <section>Conteúdo dos depoimentos</section>
+     </section>
+   </main>
+
+   <!-- Footer -->
+   <footer class="bg-dark">
+    <div class="footer-content">
+        <div class="grow2">
+            <h4 class="footer-title">Footer Content</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing.</p>
+        </div>
+        <div class="grow1">
+            <h4 class="footer-title">Seja nosso parceiro</h4>
+            <ul class="">
+                <li><a href="#">Seja um associado</a></li>
+                <li><a href="#">Anuncie seus produtos</a></li>
+                <li><a href="#">Gerencie seu conteúdo</a></li>
+                <li><a href="#">Faça sua carreira</a></li>
+            </ul>
+        </div>
+        <div class="grow1">
+            <h4 class="footer-title">Conheça-nos</h4>
+            <ul class="">
+                <li><a href="#">Informações corporativas</a></li>
+                <li><a href="#">Carreiras</a></li>
+                <li><a href="#">Comunidade</a></li>
+                <li><a href="#">Acessibilidade</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>© Copyright - Linguagens de Estruturação e Apresentação de Conteúdo</p>
+        <p>Curso de Tecnologia em Análise e Desenvolvimento de Sistemas - UTFPR-PB</p>
+    </div>
+</footer>
 </body>
 
 </html>
