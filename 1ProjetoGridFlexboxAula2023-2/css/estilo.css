@@ -148,19 +148,26 @@ body{
 /* serviços */
 .services{
     display: flex;
-    justify-content: center;
-    align-items: stretch;
-    
-  }
-  
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
-  .card-services{
-    width: 25%;
-    margin: 1rem;
-    border-radius: 1rem;
-    background-color: #f2f1f4;
-    padding: 1rem;
-    box-shadow: 1px 1px 5px 0 rgba(33, 33, 33, 0.16);
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    /* align-items: stretch; */
+    justify-content: space-evenly;
+}
+
+.div-card{
+    max-width: 13em;
+    border-radius: 1em;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 2px 5px 1px rgb(0 0 0 / 25%);
     text-align: center;
   
   }

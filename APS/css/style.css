@@ -1,0 +1,17 @@
+.menu-bar{ 
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sidebar{
+    padding-top: 80px;
+}
