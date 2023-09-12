@@ -1,17 +1,149 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .menu-bar{ 
-    display: fixed;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    background-color: #0a0909;
+    z-index: 1000;
+}
+.menu-bar h1{
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 .menu-bar li{
-    display: flex;
+    display: inline;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 1rem;
+}
 
+.menu-bar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
 }
 
 .sidebar{
-    padding-top: 80px;
+    position: fixed;
+    margin-top: 80px;
+    width: 240px;    
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.658);
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li{
+    padding: 10px 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #0a0909;
+    font-size: 1.2rem;
+}
+
+.sidebar i {
+    margin-right: 1rem;
+}
+
+.container {
+    padding-top: 80px;    
+}
+
+.cardbox {
+    display: grid;
+    margin-left: 240px;
+    padding-left: 10px;
+    padding-top: 90px;
+    padding-bottom: 10px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 200px;
+    gap: .5rem;
+}
+
+.basecard{
+    padding: 1em;
+    height: 100%;
+    border: #303580 1px solid;
+}
+
+.basecard i{
+    position: inherit;
+    bottom: 0;
+    right: 0;
+}
+
+.basecard a {
+    text-decoration: none;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.w-2{
+    grid-column: span 2;
+}
+
+.h-1{
+    grid-row: span 1;
+}
+
+
+
+.card-low{
+    display: grid;
+    margin-left: 240px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 100px;
+    gap: .5rem;
+}
+
+.w-4{
+    grid-column: span 2;
+}
+
+.h-1{
+    grid-row: span 1;
+}
+
+.card-9{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    background-color: #803030;
+}
+
+.card-9 i {
+    width: 10%;
+    background-color: #303580;
+    color: #fff;
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+
+.card-9 .i {
+    position: left;
+
 }
