@@ -7,13 +7,21 @@
 :root{
     font-family: 'Montserrat', sans-serif;
     --card-dk-red: darkred;
+    --card-dk-red-80: rgba(139, 0, 0, 0.8);
     --card-red: red;
+    --card-red-80: rgba(255, 0, 0, 0.8);
     --card-dk-blue: darkblue;
+    --card-dk-blue-80: rgba(0, 0, 139, 0.8);
     --card-blue: #303580;
-    --card-dkgreen: darkgreen;
-    --card-green: green;
+    --card-blue-80: rgba(0, 0, 255, 0.8);
+    --card-dkgreen: rgb(2, 53, 2);
+    --card-dkgreen-80: rgba(2, 53, 2, 0.8);
+    --card-green: rgba(0, 128, 0);
+    --card-green-80: rgba(0, 128, 0, 0.8);
     --card-dk-orange: darkorange;
+    --card-dk-orange-80: rgba(255, 140, 0, 0.8);
     --card-orange: orange;
+    --card-orange-80: rgba(255, 165, 0, 0.8);
 }
 
 
@@ -25,7 +33,7 @@
     align-items: center;
     justify-content: space-between;
     padding-left: 1rem;
-    background-color: #0a0909;
+    background-color: rgb(52, 58, 64);
     z-index: 1000;
 }
 .menu-bar h1{
@@ -52,7 +60,7 @@
     margin-top: 80px;
     width: 240px;    
     height: 100%;
-    background-color: rgba(128, 128, 128, 0.658);
+    background-color: rgb(241, 240, 240);
 }
 
 .sidebar ul{
@@ -62,6 +70,12 @@
 
 .sidebar ul li{
     padding: 10px 20px;
+}
+
+.sidebar li:hover{
+    background-color: rgb(52, 58, 64);
+    border-radius: 1rem;
+    color: rgb(241, 240, 240);
 }
 
 .sidebar a {
@@ -81,7 +95,6 @@
 
 .cardbox {
     display: grid;
-    /* margin-left: 240px; */
     padding: 10px;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 200px;
@@ -92,63 +105,103 @@
 }
 
 .basecard{
-    padding: .5em;
     position: relative;
     max-width: 25vw;
-    /* display: flex; */
-    /* flex-direction: column; */
+    border-radius: .5rem;
 }
 
-.basecard a {
-   
+.basecard h1{
+    padding-left: 1rem;
+    padding-top: .8rem;
+}
+
+.basecard p{
+    padding-left: 1rem;
+    padding-top: .5rem;
+}
+
+.basecard a {   
     text-decoration: none;
-   
-    color: aliceblue;
-    border: 1px solid #050303;
+    color: rgba(240, 248, 255, 0.5);
 }
 
 .basecard>div{
     position: absolute;
     bottom: 0;
+    padding: .2rem;
     width: 100%;
     text-align: center;
+    border-radius: 0 0 .8rem .8rem ;
 }
 .basecard i{
-    font-size: 2.5em;
+    font-size: 5rem;
+    opacity: 0.2;
     position: absolute;
-    bottom: 1rem;
-    right: 1rem;
+    bottom: 1.6rem;
+    right: 1.1rem;
 }
 
 .card-1 {
+    background-color: var(--card-dk-red-80);
+}
+
+.card-1>div{
     background-color: var(--card-dk-red);
 }
 
 .card-2 {
+    background-color: var(--card-dkgreen-80);
+}
+
+.card-2>div{
     background-color: var(--card-dkgreen);
 }
 
 .card-3 {
+    background-color: var(--card-blue-80);
+}
+
+.card-3>div{
     background-color: var(--card-blue);
 }
 
 .card-4 {
+    background-color: var(--card-dk-orange-80);
+}
+
+.card-4>div{
     background-color: var(--card-dk-orange);
 }
 
 .card-5 {
+    background-color: var(--card-dk-blue-80);
+}
+
+.card-5>div{
     background-color: var(--card-dk-blue);
 }
 
 .card-6 {
+    background-color: var(--card-orange-80);
+}
+
+.card-6>div{
     background-color: var(--card-orange);
 }
 
 .card-7 {
+    background-color: var(--card-green-80);
+}
+
+.card-7>div{
     background-color: var(--card-green);
 }
 
 .card-8 {
+    background-color: var(--card-red-80);
+}
+
+.card-8>div{
     background-color: var(--card-red);
 }
 
@@ -164,20 +217,19 @@
 }
 
 .card-9{    
-    padding: .5em;
     position: relative;
-    max-width: 33vw;
     text-transform: uppercase;    
     text-align: center;
-    align-content: center;
-    box-shadow: 0 2px 1px 1px rgb(0 0 0 / 15%);    
+    max-width: 33vw;
+    box-shadow: 1px 2px 1px 1px rgb(0 0 0 / 15%);    
 }
+
 
 .card-9 i {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: blue;
+    background-color: rgb(3, 126, 248);
     color: #fff;
     padding: .5rem;
     font-size: 3em;
@@ -185,12 +237,9 @@
     height: 100%;
 }
 
-.card-9 a {
+.card-9>a {
     position: absolute;
-    left: 4.6rem;
     text-decoration: none;    
     color: #050303;
-    font-size: 1.2rem;
-    padding-left: 1rem;
 }
 
