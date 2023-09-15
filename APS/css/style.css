@@ -72,7 +72,7 @@
     padding: 10px 20px;
 }
 
-.sidebar li:hover{
+.sidebar li:hover, .sidebar li:hover a{
     background-color: rgb(52, 58, 64);
     border-radius: 1rem;
     color: rgb(241, 240, 240);
@@ -238,8 +238,7 @@
 }
 
 .card-9>a {
-    position: absolute;
-    text-decoration: none;    
+    text-decoration: none;
     color: #050303;
 }
 

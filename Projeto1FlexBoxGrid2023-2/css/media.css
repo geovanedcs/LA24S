@@ -1,0 +1,88 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .nav{
+        flex-direction: column;
+    }
+
+    .menu li{
+        display: block;
+        padding: .2rem;
+    }
+
+    header{
+        position: static;
+    }
+
+    .banner{
+        position: static;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .banner img{
+        width: 50%;
+    }
+
+    .card-gallery{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .services{
+        flex-direction: column;
+    }
+
+    .card-services{
+        width: 100%;
+    }
+
+    .card-services img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .card-services h1{
+        font-size: 1rem;
+    }
+
+    .card-depositions{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card-gallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .h-1{
+        grid-row: span 1;
+      }
+    
+      .h-2{
+        grid-row: span 1;
+      }
+    
+      .w-1{
+        grid-column: span 1;
+      }
+    
+      .w-2{
+        grid-column: span 1;
+      }
+    
+      .w-4{
+        grid-column: span 1;
+      }
+
+    .card-gallery{
+        margin: 1rem;
+    }
+
+    .card-depositions{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
