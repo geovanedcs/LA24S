@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Faça seu cadastro</h1>
+            <p>Campos marcados com (*) são de preenchimento obrigatório</p>
+        </div>
+    </header>
+    <fieldset class="info">
+        <legend>Dados pessoais</legend>
+        <form action="#" method="post">
+            <div>
+                <label for="nome">Nome* :</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label for="email">E-mail* :</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="senha">Senha* :</label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+            <div>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" name="data" id="data" required>
+            </div>
+            <div class="sexo">
+                <label for="sexo">Sexo*:</label>
+                <input type="radio" name="sexo" id="sexo" value="masculino" required> Masculino
+                <input type="radio" name="sexo" id="sexo" value="feminino" required> Feminino
+            </div>
+    </fieldset>
+    <fieldset>
+        <legend>Biografia</legend>
+        <div>
+            <input type="textarea" placeholder="Digite sua Biografia aqui...">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label for="Interesses">Interesses</label>
+        <select name="interesse" id="interesse">
+            <option value="1">Desenvolvimento Front-end</option>
+            <option value="2">Desenvolvimento Back-end</option>
+            <option value="3">Desenvolvimento Full-stack</option>
+            <option value="4">Suporte técnico</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Envie seu curriculum vitae</legend>
+        <div>
+            <input type="file" name="curriculum" id="curriculum">
+        </div>
+    </fieldset>
+</body>
+</html>
