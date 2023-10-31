@@ -46,8 +46,8 @@ export function carrosselComponent() {
         }
         const imgItem = document.createElement('img');
         imgItem.classList.add('d-block', 'w-100');
-        imgItem.src(imgSrc);
-        imgItem.alt(imgAlt);
+        imgItem.setAttribute('src', imgSrc);
+        imgItem.setAttribute('alt', imgAlt);
 
         divItem.appendChild(imgItem);
 
@@ -55,11 +55,13 @@ export function carrosselComponent() {
         divTexto.classList.add('carousel-caption', 'd-none', 'd-md-block');
         divTexto.innerHTML = `<h5>${txth5}</h5> <p>${txtp}</p>`;
 
+        return divItem;
+
     }
 
-    img1 = imgCar('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp', 'Sunset Over the City', 'First slide label', 'Nulla vitae elit libero, a pharetra augue mollis interdum.', true);
-    img2 = imgCar('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp', 'Canyon at Night', 'Second slide label', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', false);
-    img3 = imgCar('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp', 'Cliff Above a Stormy Sea', 'Third slide labe', 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.', false);
+    const img1 = imgCar('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp', 'Sunset Over the City', 'First slide label', 'Nulla vitae elit libero, a pharetra augue mollis interdum.', true);
+    const img2 = imgCar('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp', 'Canyon at Night', 'Second slide label', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', false);
+    const img3 = imgCar('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp', 'Cliff Above a Stormy Sea', 'Third slide labe', 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.', false);
 
     divImgCar.appendChild(img1);
     divImgCar.appendChild(img2);
