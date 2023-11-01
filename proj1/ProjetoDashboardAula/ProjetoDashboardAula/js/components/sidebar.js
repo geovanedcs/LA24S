@@ -72,9 +72,9 @@ export function sidebarComponent() {
         sidebarUl.appendChild(listItem);
     }
 
-    addNavItem('Dashboard', 'home', '#');
+    addNavItem('Dashboard', 'home', 'index.html');
     addNavItem('Pedidos', 'check-circle', '#');
-    addNavItem('Clientes', 'user', '#');
+    addNavItem('Clientes', 'user', 'clientes.html');
     addNavItem('Relatórios', 'clipboard', '#');
     addNavItem('Integração', 'grid', '#');
 

@@ -6,5 +6,7 @@ window.onload = function() {
     const appHeader = document.getElementById("appHeader").innerHTML =  headerComponent;
     const appSidebar = document.getElementById("appSidebar");
     appSidebar.appendChild(sidebarComponent());
-    const appFooter = document.getElementById("appFooter").innerHTML = footerComponent
+    const appFooter = document.getElementById("appFooter").innerHTML = footerComponent;
+
+    feather.replace();
 }
