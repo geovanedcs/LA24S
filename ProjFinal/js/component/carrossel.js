@@ -1,8 +1,8 @@
 export function carrosselComponent() {
     const carrosselDiv = document.createElement('div');
+    carrosselDiv.setAttribute('id', 'carouselBasicExample');
     carrosselDiv.classList.add('carousel', 'slide', 'carousel-fade');
     carrosselDiv.setAttribute('data-mdb-ride','carousel');
-    carrosselDiv.setAttribute('id', 'carouselBasicExample');
     console.log(carrosselDiv);
 
     //adiciona botoes para mover carrossel
@@ -11,33 +11,34 @@ export function carrosselComponent() {
     console.log(innerDiv)
 
     const card_car1 = document.createElement('button');
-    card_car1.classList.add('active');
     card_car1.setAttribute('type','button');
     card_car1.setAttribute('data-mdb-target', '#carouselBasicExample');
     card_car1.setAttribute('data-mdb-slide-to', '0');
+    card_car1.classList.add('active');
     card_car1.setAttribute('aria-current', 'true')
     card_car1.setAttribute('aria-label', 'Slide 1')
 
     const card_car2 = document.createElement('button');
     card_car2.setAttribute('type','button');
     card_car2.setAttribute('data-mdb-target', '#carouselBasicExample');
-    card_car2.setAttribute('data-mdb-slide-to', '2');
+    card_car2.setAttribute('data-mdb-slide-to', '1');
     card_car2.setAttribute('aria-label', 'Slide 2')
 
     const card_car3 = document.createElement('button');
     card_car3.setAttribute('type','button');
     card_car3.setAttribute('data-mdb-target', '#carouselBasicExample');
-    card_car3.setAttribute('data-mdb-slide-to', '3');
+    card_car3.setAttribute('data-mdb-slide-to', '2');
     card_car3.setAttribute('aria-label', 'Slide 3')
 
     innerDiv.appendChild(card_car1);
     innerDiv.appendChild(card_car2);
-    innerDiv.appendChild(card_car2);
+    innerDiv.appendChild(card_car3);
 
     carrosselDiv.appendChild(innerDiv);
 
     //adiciona as imagens
     const divImgCar = document.createElement('div');
+    divImgCar.classList.add('carousel-inner');
 
     const imgCar = function(imgSrc, imgAlt, txth5, txtp, primeiro){
         const divItem = document.createElement('div');
@@ -56,6 +57,7 @@ export function carrosselComponent() {
         const divTexto = document.createElement('div');
         divTexto.classList.add('carousel-caption', 'd-none', 'd-md-block');
         divTexto.innerHTML = `<h5>${txth5}</h5> <p>${txtp}</p>`;
+        divItem.appendChild(divTexto);
 
         return divItem;
 
