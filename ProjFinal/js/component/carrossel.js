@@ -2,11 +2,13 @@ export function carrosselComponent() {
     const carrosselDiv = document.createElement('div');
     carrosselDiv.classList.add('carousel', 'slide', 'carousel-fade');
     carrosselDiv.setAttribute('data-mdb-ride','carousel');
-    carrosselDiv.setAttribute('id', 'carouselBasic');
+    carrosselDiv.setAttribute('id', 'carouselBasicExample');
+    console.log(carrosselDiv);
 
     //adiciona botoes para mover carrossel
     const innerDiv = document.createElement('div');
     innerDiv.classList.add('carousel-indicators');
+    console.log(innerDiv)
 
     const card_car1 = document.createElement('button');
     card_car1.classList.add('active');
