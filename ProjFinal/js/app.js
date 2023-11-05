@@ -1,6 +1,7 @@
 import { carrosselComponent } from "../js/component/carrossel.js";
 import { navbarComponent } from "../js/component/navbar.js";
 import { cardComponent } from "../js/component/card.js";
+import { footerComponent } from "../js/component/footer.js";
 
 window.onload = function(){
     const appHome = document.getElementById("appBody");
@@ -15,4 +16,8 @@ window.onload = function(){
     cards.classList.add('container', 'mt-5');
     cards.appendChild(cardComponent());
     appHome.appendChild(cards);
+
+    const footer = document.createElement('footer');
+    footer.appendChild(footerComponent());
+    appHome.appendChild(footer);
 }
