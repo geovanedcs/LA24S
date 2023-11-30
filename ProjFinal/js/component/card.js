@@ -1,4 +1,4 @@
-export function cardComponent(){
+export function cardComponent(src, alt, description){
     const divCard = document.createElement('div');
     divCard.classList.add('card', 'mb-3');
     divCard.setAttribute('style', 'max-width: 540px;');
@@ -11,8 +11,8 @@ export function cardComponent(){
     divCol.classList.add('col-md-4');
 
     const imgCard = document.createElement('img');
-    imgCard.setAttribute('src', 'https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp');
-    imgCard.setAttribute('alt', 'Trendy Pants and Shoes');
+    imgCard.setAttribute('src', src);
+    imgCard.setAttribute('alt', alt);
     imgCard.classList.add('img-fluid', 'rounded-start');
     divCol.appendChild(imgCard);
     divRow.appendChild(divCol);
@@ -32,7 +32,7 @@ export function cardComponent(){
 
     const pCard = document.createElement('p');
     pCard.classList.add('card-text');
-    pCard.textContent = 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.';
+    pCard.textContent = description;
     divCardBody.appendChild(pCard);
 
     const pCard2 = document.createElement('p');
