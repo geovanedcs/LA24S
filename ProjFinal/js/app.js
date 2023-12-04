@@ -5,7 +5,7 @@ import { footerComponent } from "../js/component/footer.js";
 
 window.onload = async function(){
     const prods = await getProducts();
-    // localStorage.setItem('products', JSON.stringify(prods));
+    localStorage.setItem('products', JSON.stringify(prods));
     const appHome = document.getElementById("appBody");
     appHome.style.backgroundColor = "#FF8C42";
     appHome.appendChild(navbarComponent());
