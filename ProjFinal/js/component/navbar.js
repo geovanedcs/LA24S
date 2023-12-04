@@ -1,6 +1,7 @@
 export function navbarComponent() {
   const navbar = document.createElement('nav');
-  navbar.classList.add('navbar', 'navbar-expand-lg', 'navbar-light', 'bg-white');
+  navbar.classList.add('navbar', 'navbar-expand-lg');
+  navbar.style.backgroundColor = '#FF3C38';
 
   const container = document.createElement('div');
   container.classList.add('container-fluid');
@@ -24,12 +25,12 @@ export function navbarComponent() {
 
   const a = document.createElement('a');
   a.classList.add('navbar-brand', 'mt-2', 'mt-lg-0');
-  a.href = '#';
+  a.href = 'index.html';
 
   const img = document.createElement('img');
-  img.src = 'https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp';
-  img.height = '15';
-  img.alt = 'MDB Logo';
+  img.src = './img/My_Pet-removebg-preview.png';
+  img.width = '150';
+  img.alt = 'My Pet Space';
   img.loading = 'lazy';
   a.appendChild(img);
 
@@ -41,8 +42,8 @@ export function navbarComponent() {
 
   const a1 = document.createElement('a');
   a1.classList.add('nav-link');
-  a1.href = '#';
-  a1.textContent = 'Dashboard';
+  a1.href = 'index.html';
+  a1.textContent = 'Home';
   li1.appendChild(a1);
 
   const li2 = document.createElement('li');
@@ -53,30 +54,29 @@ export function navbarComponent() {
   a2.href = '#';
   a2.textContent = 'Team';
   li2.appendChild(a2);
-
-  const li3 = document.createElement('li');
-  li3.classList.add('nav-item');
-
-  const a3 = document.createElement('a');
-  a3.classList.add('nav-link');
-  a3.href = '#';
-  a3.textContent = 'Projects';
-  li3.appendChild(a3);
-
+  
   ul.appendChild(li1);
   ul.appendChild(li2);
-  ul.appendChild(li3);
 
   const div2 = document.createElement('div');
   div2.classList.add('d-flex', 'align-items-center');
 
   const a4 = document.createElement('a');
   a4.classList.add('link-secondary', 'me-3');
-  a4.href = '#';
+  a4.href = 'cart.html';
 
   const icon2 = document.createElement('i');
   icon2.classList.add('fas', 'fa-shopping-cart');
+
+  const span2 = document.createElement('span');
+  span2.classList.add('badge', 'rounded-pill', 'badge-notification', 'bg-danger');
+  if(localStorage.getItem('shoppingCart') === null){
+      span2.textContent = 0;}
+    else{
+      span2.textContent = JSON.parse(localStorage.getItem('shoppingCart')).length;
+    }
   a4.appendChild(icon2);
+  a4.appendChild(span2);
 
   const div3 = document.createElement('div');
   div3.classList.add('dropdown');
@@ -163,18 +163,23 @@ export function navbarComponent() {
 
   const li8 = document.createElement('li');
 
-  const a11 = document.createElement('a');
-  a11.classList.add('dropdown-item');
-  a11.href = '#';
+  const a11 = document.createElement('button');
+  a11.classList.add('dropdown-item', 'btn', 'btn-link', 'border-0');
   a11.textContent = 'Settings';
   li8.appendChild(a11);
+  // li8.appendChild(modalLogin());
 
   const li9 = document.createElement('li');
 
   const a12 = document.createElement('a');
   a12.classList.add('dropdown-item');
-  a12.href = '#';
+  a12.href = 'index.html';
   a12.textContent = 'Logout';
+  // addEventListener('click', () => {
+  //   localStorage.removeItem('user');
+  //   localStorage.removeItem('shoppingCart');
+  //   window.location.href = 'index.html';
+  // });
   li9.appendChild(a12);
   
   ul3.appendChild(li7);
@@ -186,7 +191,7 @@ export function navbarComponent() {
   div4.appendChild(ul3);
 
   div2.appendChild(a4);
-  div2.appendChild(div3);
+  // div2.appendChild(div3);
   div2.appendChild(div4);
 
   div.appendChild(a);

@@ -1,4 +1,4 @@
-export function descricaoComponent(){
+export function descricaoComponent(prod){
     const divDet = document.createElement('div');
     divDet.classList.add('row');
 
@@ -6,6 +6,7 @@ export function descricaoComponent(){
     divH1.classList.add('col-sm-12');
 
     const h1 = document.createElement('h1');
+    h1.classList.add('text-center');
     h1.textContent = "Descrição";
 
     divH1.appendChild(h1);
@@ -15,8 +16,8 @@ export function descricaoComponent(){
 
     const p = document.createElement('p');
     p.classList.add('text-justify', 'text-break');
-    p.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa lorem, condimentum id luctus nec, molestie sed justo. Praesent nec nisl a purus blandit viverra. Praesent ac massa at ligula laoreet iaculis eget lacus.";
-
+    p.style.padding = "5%";
+    p.innerText = prod.description;
     divP.appendChild(p);
 
     divDet.appendChild(divH1);

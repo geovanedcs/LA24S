@@ -3,30 +3,31 @@ import { navbarComponent } from "../js/component/navbar.js";
 import { cardComponent } from "../js/component/card.js";
 import { footerComponent } from "../js/component/footer.js";
 
-window.onload = function(){
-    const data = getProducts();
+window.onload = async function(){
+    const prods = await getProducts();
+    // localStorage.setItem('products', JSON.stringify(prods));
     const appHome = document.getElementById("appBody");
-    const navbar = document.createElement('div');
+    appHome.style.backgroundColor = "#FF8C42";
     appHome.appendChild(navbarComponent());
     const sectionCar = document.createElement('section');
     sectionCar.classList.add('container', 'mt-5');
-    sectionCar.appendChild(carrosselComponent());
+    sectionCar.appendChild(carrosselComponent(prods));
     appHome.appendChild(sectionCar);
-
+    
     const cards = document.createElement('section');
     cards.classList.add('container', 'mt-5');
-    cards.appendChild(cardComponent(data[0].images[0], data[0].name, data[0].name));
+    cards.appendChild(cardComponent());
     appHome.appendChild(cards);
-
+    
     const footer = document.createElement('footer');
     footer.appendChild(footerComponent());
     appHome.appendChild(footer);
 
-    console.log(getProducts());
 }
+
 
 async function getProducts(){
     const response = await fetch('./data/products.json');
-    const data = await response.json();
-    return data;
+    const arrayProducts = await response.json();
+    return arrayProducts;
 }

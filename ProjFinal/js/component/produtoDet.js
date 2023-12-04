@@ -1,28 +1,47 @@
-export function produtoDetComponent(){
+import { addToCart } from "./cart.js";
+
+export function produtoDetComponent(prod){
+
+    const arrayProducts = JSON.parse(localStorage.getItem('products'));
+
     const divDet = document.createElement('div');
     divDet.classList.add('row','mt-5');
+    divDet.style.padding = "10px";
 
     const divCard = document.createElement('div');
     divCard.classList.add('col-sm-6');
 
     const divCardPrincipal = document.createElement('div');
     divCardPrincipal.classList.add('card');
+    divCardPrincipal.style.height = "300px";
+    divCardPrincipal.style.backgroundColor = "#f49f0a";
 
     const divCardBody = document.createElement('div');
     divCardBody.classList.add('card-body');
 
     const h5CardTitle = document.createElement('h5');
     h5CardTitle.classList.add('card-title');
-    h5CardTitle.textContent = "Special title treatment";
+    h5CardTitle.textContent = prod.name;
 
     const pCardText = document.createElement('p');
     pCardText.classList.add('card-text');
-    pCardText.textContent = "With supporting text below as a natural lead-in to additional content.";
-
-    const aCardLink = document.createElement('a');
+    if(arrayProducts.products[prod.id].amout > 0){
+    pCardText.textContent = "Disponível em estoque";
+    }else{
+        pCardText.textContent = "Produto indisponível";
+    }
+    const aCardLink = document.createElement('button');
+    aCardLink.type = "button";
     aCardLink.classList.add('btn', 'btn-primary');
-    aCardLink.setAttribute('href', '#');
-    aCardLink.textContent = "Go somewhere";
+    if(arrayProducts.products[prod.id].amout > 0){
+        aCardLink.disabled = false;
+        aCardLink.textContent = "Adicionar ao carrinho";
+    aCardLink.addEventListener('click', () => {
+        addToCart(prod);
+    });}else{
+        aCardLink.disabled = true;
+        aCardLink.textContent = "Produto indisponível";
+    }
 
     divCardBody.appendChild(h5CardTitle);
     divCardBody.appendChild(pCardText);
@@ -50,7 +69,8 @@ export function produtoDetComponent(){
         }
 
         const img = document.createElement('img');
-        img.classList.add('d-block', 'w-100');
+        img.classList.add('d-block', 'w-75');
+        img.style.margin = "auto";
         img.src = src;
         img.alt = alt;
         
@@ -59,9 +79,13 @@ export function produtoDetComponent(){
         return divItem;
     }
 
-    divInner.appendChild(gerarImagens('https://mdbcdn.b-cdn.net/img/new/slides/041.webp', 'Wild Landscape', true));
-    divInner.appendChild(gerarImagens('https://mdbcdn.b-cdn.net/img/new/slides/042.webp', 'Camera', false));
-    divInner.appendChild(gerarImagens('https://mdbcdn.b-cdn.net/img/new/slides/043.webp', 'Exotic Fruits', false));
+    for(let i = 0; i < prod.images.length; i++){
+        if(i === 0){
+            divInner.appendChild(gerarImagens(prod.images[i], prod.name, true));
+        }else{
+            divInner.appendChild(gerarImagens(prod.images[i], prod.name, false));
+        }
+    }
     divImgCards.appendChild(divInner);
 
     const btnPrev = document.createElement('button');

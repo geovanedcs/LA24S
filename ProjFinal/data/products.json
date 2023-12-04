@@ -5,7 +5,7 @@
             "id": 1,
             "name": "Primore - Bifinhos recheados",
             "price": 5.60,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Bifinho recheado Primore pet super premium sabor carne, 60g blueberry, vegetais e quinoa 60g proporciona:\n\n- Produzido com ingredientes naturais;\n\n- Combinação única de ingredientes;\n\n- Sem corantes;\n\n- Conservantes naturais.\n\n_________________________________________________________________________\n\nCódigo de barras: 7898969377003\n\n_________________________________________________________________________\n\nIndicação:  Indicada para cães.\n\n_________________________________________________________________________\n\nNíveis de garantia:\n\nProteína bruta(Mín.) 350 g/kg (35%)\n\nUmidade (Máx.) 300 g/kg (30%)\n\nMatéria mineral (Máx.) 140 g/kg (14%)\n\nMatéria fibrosa (Máx.) 20 g/kg (2%)\n\nExtrato etéreo (Mín.) 100 g/kg (10)\n\nCálcio (Mín.) 15 g/kg (1,5%)\n\nCálcio (Máx.) 45 g/kg (4,5%)\n\nFósforo (Mín.) 15 g/kg (1,5%)\n\n _________________________________________________________________________\n\nComposição: \n\n Peito de frango(10/kg), carne mecanicamente separada de frango, miúdos bovino, miúdos suíno, farelo de arroz, farinha de vísceras, hemoglobina bovina em pó, cloreto de sódio(sal comum), goma xantana, extrato de alecrim(0,1%), blueberry (5g/kg 5%), quinoa (5g/kg 5%), sorbato de potássio, hidrolisado de fígado de frango, propilenoglicol, glicerina, ácido propiônico, ácido cítrico, e aroma de carne e vegetais.",
             "images":[
                 "./img/produto_01/248_7898969377003.png",
@@ -17,7 +17,7 @@
             "id": 2,
             "name": "Gourmet Fit 50g",
             "price": 13.90,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Bifinho recheado Primore pet super premium sabor carne, 60g blueberry, vegetais e quinoa 60g proporciona:\n- Produzido com ingredientes naturais;\n\n- Combinação única de ingredientes;\n\n- Sem corantes;\n\n- Conservantes naturais.\n\n_________________________________________________________________________\n\nCódigo de barras: 7898969377003\n\n_________________________________________________________________________\n\nIndicação:  Indicada para cães.\n\n_________________________________________________________________________\n\nNíveis de garantia:\n\nProteína bruta(Mín.) 350 g/kg (35%)\n\nUmidade (Máx.) 300 g/kg (30%)\n\nMatéria mineral (Máx.) 140 g/kg (14%)\n\n Matéria fibrosa (Máx.) 20 g/kg (2%)\n\n Extrato etéreo (Mín.) 100 g/kg (10)\n\nCálcio (Mín.) 15 g/kg (1,5%)\n\nCálcio (Máx.) 45 g/kg (4,5%)\n\nFósforo (Mín.) 15 g/kg (1,5%)\n\n _________________________________________________________________________\n\n Composição: \n\n Peito de frango(10/kg), carne mecanicamente separada de frango, miúdos bovino, miúdos suíno, farelo de arroz, farinha de vísceras, hemoglobina bovina em pó, cloreto de sódio(sal comum), goma xantana, extrato de alecrim(0,1%), blueberry (5g/kg 5%), quinoa (5g/kg 5%), sorbato de potássio, hidrolisado de fígado de frango, propilenoglicol, glicerina, ácido propiônico, ácido cítrico, e aroma de carne e vegetais.",
             "images":[
                 "./img/produto_02/495_7898957709717.png",
@@ -31,7 +31,7 @@
             "id": 3,
             "name": "Churrasquito",
             "price": 17.04,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Casquinho Recheado Carne - Churrasquito proporciona:\nFeito com casco natural bovino, o seu recheio de carne vem para trazer muito mais sabor e distração para o cão enquanto ele se diverte mordiscando! Rico em cálcio, ainda auxilia no fortalecimento da arcada dentária canina e diminuição do tártaro.",
             "images":[
                 "./img/produto_03/461_7898932559993.png",
@@ -45,7 +45,7 @@
             "id": 4,
             "name": "Golden Cookie Caes 350 G",
             "price": 0.0,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Golden Cookie Caes Filh 350 G proporciona:\n\n- Biscoitos assados, crocantes e saudáveis;\n- Sem adição de açúcar;\n- Sabor excepcional;\n- Sem corantes e aromatizantes artificiais;\n_________________________________________________________________________\nCódigo de barras: 7897348207580\n_________________________________________________________________________\nIndicação:  Indicada para cães filhotes.",
             "images":[
                 "./img/produto_04/116_7897348207535.png",
@@ -56,14 +56,14 @@
                 "./img/produto_04/1046_7897348207603.png",
                 "./img/produto_04/1119_7897348207542.png",
                 "./img/produto_04/1685_7897348208105.png",
-                "/img/produto_04/1763_7897348208549.png"
+                "./img/produto_04/1763_7897348208549.png"
             ]
         },
         {
             "id": 5,
             "name": "Benefit Sensitive 280 G",
             "price": 23.33,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Ração Úmida Spin Pet Benefit Select Sensitive Frango e Atum para Cães 280g  proporciona:\n\n- 100% Natural, com cortes selecionados;\n\n- Aroma natural, sem corantes e conservantes;\n\n- Alimento sem glúten e químicos;\n\n- Comida de verdade indicada para cães adultos de todos os portes;\n\n- Com probióticos, importante para prevenir problemas renais e intestinais dos pets.\n\n_________________________________________________________________________\n\nCódigo de barras: 7898957709670\n\n_________________________________________________________________________\n\nIndicação:  Indicada para cães.\n\n_________________________________________________________________________\n\nComposição: \nÁgua, Proteina Hidrolisada de Frango, Carne de Atum, Carne de Frango, Quirera de Arroz, Celulose em pó, Óleo de Girassol, Óleo de Peixe Refinado, Carragena, Parede Celular de Levedura (MOS), Frutoligossacarídeo (FOS), Tripolifosfato de Sódio, Premix.",
             "images":[
                 "./img/produto_05/447_7898957709069.png",
@@ -74,7 +74,7 @@
             "id": 6,
             "name": "ND LATA NATURAL 70G",
             "price": 16.90,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A ND LATA NATURAL 70G proporciona:\n\n- Indicada para gatos;\n\n- Alimento úmido específico para gatos;\n\n- Ideal para complemento da alimentação;\n\n- Natural;\n\n- Seu pet vai adorar;\n\n- Disponível em embalagem de 70 g.\n\n________________________________________________________________________\n\nCódigo de barras:   8606014107067",
             "images":[
                 "./img/produto_06/499_8606014102758.png",
@@ -83,14 +83,14 @@
                 "./img/produto_06/1470_7898948410240.png",
                 "./img/produto_06/1471_7898948410233.png",
                 "./img/produto_06/1545_8606014102253.png",
-                "/img/produto_06/1547_8606014102864.png"
+                "./img/produto_06/1547_8606014102864.png"
             ]
         },
         {
             "id": 7,
             "name": "Churu 04 Tubos",
             "price": 27.90,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Purê Churu para Gatos 56g proporciona:\n\n- Indicado para gatos;\n\n- Feito com frango criado em quintas puro e natural;\n\n- Sem grãos, conservantes ou corantes artificiais;\n\n- Textura cremosa e sabores deliciosos que os gatos adoram;\n\n- Ideal para tomar juntamente com medicamentos;\n\n- Com bastante umidade que o gato precisa para uma boa saúde geral;\n\n- Baixo em calorias;\n\n- Projetado para alimentar à mão, uma forma inovadora e interativa de passar tempo juntos;\n\n- Em embalagem com 4 tubos de 14g\n\n- Disponível em embalagem de 56g.\n\n_________________________________________________________________________\n\nCódigo de barras: 855958006570\n_________________________________________________________________________\n\nIndicação:  Indicada para gatos.\n_________________________________________________________________________\n\nNíveis de garantia:\n\nProteína bruta (mín) 7.00%\n\nGordura bruta (mín) 0.20%\n\nFibra Bruta (máx) 0.30%\n\nHumidade (máx) 91.00%\n\n Vitamina E (mín) 310 IU/kg\n\n\n\n_________________________________________________________________________\n\nComposição: \n Água, frango, tapioca, saborizantes naturais, saborizante natural de vieiras, goma de guar, colagénio, suplemento de vitamina E, extrato de chá verde.",
             "images":[
                 "./img/produto_07/1552_855958006570.png",
@@ -103,7 +103,7 @@
             "id": 8,
             "name": "PREMIER COOKIE CAES ADULT 250 G",
             "price": 19.50,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "O PREMIER COOKIE CAES ADULT SENIOR 250 G proporciona:\n\n\n\n- Indicado para cães;\n\n- Assados, Crocantes e Saudáveis;\n\n- Auxilia na saúde oral;\n\n- Baixo teor de sódio;\n\n- Sabor excepcional;\n\n- Sem ingredientes transgênicos;\n\n- Sem corantes e aromatizantes artificiais;\n\n- Disponível em embalagem com 250g.\n\nComposição:\nFarinha de trigo, farinha de torresmo, ovo em pó, albumina de ovo, leite em pó desnatado, colágeno hidrolisado (4,0%), amido de milho, cúrcuma (Curcuma longa) (0,3%), dextrina, fibra de trigo, quirera de arroz, banha refinada, antioxidantes (concentrado de tocoferóis e extrato de alecrim), bicarbonato de sódio, carbonato de cálcio, frutooligossacarídeos (0,2%), hexametafosfato de sódio, hidrolisado de fígado suíno, mananoligossacarídeos (0,2%), parede celular de levedura - fonte de ?-glucano (0,10%), biotina, vitamina C, vitamina E, zinco aminoácido quelato.\n\n_________________________________________________________________________\n\nCódigo de barras:   7897348207733\n\n_________________________________________________________________________\n\nIndicação:  Indicado para cães.",
             "images":[
                 "./img/produto_08/528_7897348207269.png",
@@ -114,7 +114,7 @@
             "id": 9,
             "name": "Pet Delicia Cao 320gr",
             "price": 20.38,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Ração Úmida Pet Delícia Panelinha de Carne para Cães Adultos - 320g proporciona:\n\n- Indicada para cães adultos;\n\n- Alimentação natural e balanceada;\n\n- Cortes nobres de carne bovina (mono proteica) e legumes frescos;\n\n- 0% de conservantes, transgênicos; corantes, sabores artificiais, e subprodutos;\n\n- Método de cozimento delicado para conservar os nutrientes naturais;\n\n- Rica em ômegas 3 e 6 para uma pele saudável e pelos com brilho;\n\n- Antioxidantes e anti-inflamatórios naturais;\n\n- Rica em fibras, prebióticos e beta-glucanos;\n\n- Sódio controlado; \n\n- Umidade ideal;\n\n- Alta digestibilidade;\n\n- Cheirosa e saborosa;\n\n- Desenvolvida por especialistas e atende as recomendações do NRC 2006 e AAFCO 2014;\n\n\n_________________________________________________________________________\n\nCódigo de barras: 7898948410271\n_________________________________________________________________________\n\nIndicação:  Indicado para cães adultos.\n\n_________________________________________________________________________\n\nNíveis de garantia:\n\n Níveis de garantia e Energia Metabolizável (1 kg de produto em Matéria Natural MN): Umidade (máx) 760,0 g Proteína bruta (mín) 75,0 g Extrato etéreo (mín) 38,0 g Matéria Fibrosa (máx) 12,0 g Matéria Mineral (máx) 15,0 g Cálcio (mín) 1.500 mg Cálcio (máx) 2.100 mg Fósforo (mín) 1.200 mg Sódio (mín) 300 mg Energia metabolizável 1.150 kcal % energia proteínas 29% % energia gorduras 33% % energia carboidratos  38% Ômega 3 (mín) 0,8 g Ômega 6 (mín) 4,0 g Matéria Seca (mín) 240,0 g.\n\n_________________________________________________________________________\n\nComposição: \n Proteína: carne bovina, coração bovino, língua bovina\n\n Grãos: arroz parboilizado, arroz integral\n\nLegumes: abobrinha, cenoura, inhame, ervilhas, chuchu\n\nÓleos: óleo de girassol, lecitina de soja não transgênica\n\nFuncionais: alecrim, algas, açafrão da terra (curcumina), pimenta preta (piperina), aveia em flocos, semente de linhaça, levedura seca.",
             "images":[
                 "./img/produto_09/1075_7898948410172.png",
@@ -126,7 +126,7 @@
             "id": 10,
             "name": "Pet Delicia Cao 320gr",
             "price": 20.38,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Ração Úmida Pet Delícia Panelinha de Carne para Cães Adultos - 320g proporciona:\n\n- Indicada para cães adultos;\n\n- Alimentação natural e balanceada;\n\n- Cortes nobres de carne bovina (mono proteica) e legumes frescos;\n\n- 0% de conservantes, transgênicos; corantes, sabores artificiais, e subprodutos;\n\n- Método de cozimento delicado para conservar os nutrientes naturais;\n\n- Rica em ômegas 3 e 6 para uma pele saudável e pelos com brilho;\n\n- Antioxidantes e anti-inflamatórios naturais;\n\n- Rica em fibras, prebióticos e beta-glucanos;\n\n- Sódio controlado; \n\n- Umidade ideal;\n\n- Alta digestibilidade;\n\n- Cheirosa e saborosa;\n\n- Desenvolvida por especialistas e atende as recomendações do NRC 2006 e AAFCO 2014;\n\n\n_________________________________________________________________________\n\nCódigo de barras: 7898948410271\n_________________________________________________________________________\n\nIndicação:  Indicado para cães adultos.\n\n_________________________________________________________________________\n\nNíveis de garantia:\n\n Níveis de garantia e Energia Metabolizável (1 kg de produto em Matéria Natural MN): Umidade (máx) 760,0 g Proteína bruta (mín) 75,0 g Extrato etéreo (mín) 38,0 g Matéria Fibrosa (máx) 12,0 g Matéria Mineral (máx) 15,0 g Cálcio (mín) 1.500 mg Cálcio (máx) 2.100 mg Fósforo (mín) 1.200 mg Sódio (mín) 300 mg Energia metabolizável 1.150 kcal % energia proteínas 29% % energia gorduras 33% % energia carboidratos  38% Ômega 3 (mín) 0,8 g Ômega 6 (mín) 4,0 g Matéria Seca (mín) 240,0 g.\n\n_________________________________________________________________________\n\nComposição: \n Proteína: carne bovina, coração bovino, língua bovina\n\n Grãos: arroz parboilizado, arroz integral\n\nLegumes: abobrinha, cenoura, inhame, ervilhas, chuchu\n\nÓleos: óleo de girassol, lecitina de soja não transgênica\n\nFuncionais: alecrim, algas, açafrão da terra (curcumina), pimenta preta (piperina), aveia em flocos, semente de linhaça, levedura seca.",
             "images":[
                 "./img/produto_10/904_7898948410271.png",
@@ -138,7 +138,7 @@
             "id": 11,
             "name": "Pate Three Dogs Filhotes Frango",
             "price": 8.35,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "O Alimento Úmido Three Dogs Super Premium Filhotes Frango 150g proporciona:\n\nSem transgênicos;\n\nAlta palatabilidade;\n\nBaixo teor de sódio;\n\nAuxilia no crescimento saudável;\n\n\nFeita com carne fresca de frango;\n\nAjuda no desenvolvimento cognitivo;\n\nNão contém conservantes, corantes e aromatizantes artificiais;\n\n\n_________________________________________________________________________\n\nCódigo de barras: 7908320401350\n_________________________________________________________________________\n\nIndicação:  Indicado para cães filhotes.",
             "images":[
                 "./img/produto_11/518_7908320401350.png"
@@ -148,7 +148,7 @@
             "id": 12,
             "name": "Pet Dog Nat 150g",
             "price": 11.90,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "O Biscoito Petdog para Cães Veggie proporciona:\n\n- Indicado para cães;\n\n- 100% vegetal;\n\n- Livre de transgênicos, corantes e conservantes;\n\n- Com prebióticos;\n\n- Com ora-pro-nóbis\n\n- Indicado para ser servido após a refeição;\n\n_________________________________________________________________________\n\nCódigo de barras:  7898948712146\n\n_________________________________________________________________________\n\nIndicação:  Indicado para cães.",
             "images":[
                 "./img/produto_12/1174_7898948712443.png",
@@ -159,7 +159,7 @@
             "id": 13,
             "name": "Bifinho Nutristeak 60g Tomate",
             "price": 7.99,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Petisco Nutri Steak Sabor Carne e Tomate para Cães 60g proporciona:\n\n- Indicado para cães;\n\n- Feito com ingredientes naturais;\n\n- Ele auxilia no controle do mau hálito canino;\n\n- Ótima opção para levar enriquecimento ambiental;\n\n- Rico em fibras;\n\n- Com ervas desidratadas naturais;\n\n- Livre de transgênicos ou conservantes prejudiciais;\n\npor especialistas e atende as recomendações do NRC 2006 e AAFCO 2014;\n\n_________________________________________________________________________\n\nCódigo de barras: 7898939653007\n _________________________________________________________________________\n\nIndicação:  Indicado para cães de pequeno e médio porte.\n_________________________________________________________________________\n\nNíveis de garantia:\n\nProteína (min) 350g/kg, umidade (máx) 300g/kg, extrato étereo (min) 70g/kg, matéria mineral (máx) 120g/kg, cálcio (min) 3g/kg, cálcio (máx) 20g/kg, fósforo (mín) 3g/kg, fósforo (máx) 10g/kg, matéria fibrosa (máx) 30g/kg.\n\n_________________________________________________________________________\n\nComposição:\nMiúdos bovinos, miúdos suínos, carne mecanicamente separada de frango, farinha de vísceras, farelo de arroz, cloreto de sódio (sal comum), açúcar, glicerina bi-destilada, propilenoglicol, goma xantana, sorbato de potássio, pó prague, glutamato monossódico, orégano (1,5%), salsinha (0,4%), tomilho (0,4%), tomate em pó (0,4%). CONTÉM 35% DE PROTEÍNA.",
             "images":[
                 "./img/produto_13/452_7898939653007.png"
@@ -169,7 +169,7 @@
             "id": 14,
             "name": "Premier Cookie Gato 40g",
             "price": 8.90,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Cookie Premier Sabor Original para Gatos Adultos 40g proporciona:\n\n- Indicado para gatos adultos;\n\n- Saúde Intestinal;\n\n- Pele e Pelagem;\n\n- Paladares exigentes;\n\n- Sem ingredientes transgênicos;\n\n- Sem corantes e aromatizantes artificiais;\n\n_________________________________________________________________________\n\nCódigo de barras: 7897348207993\n _________________________________________________________________________\n\nIndicação:  Indicada para cães.\n\n_________________________________________________________________________\n\nNíveis de garantia:\n\nUmidade (máx.) 10,00% 100 g/kg Proteína Bruta (mín.) 28,00% 280 g/kg Extrato Etéreo (mín.) 15,00% 150 g/kg Matéria Mineral (máx.) 5,00% 50 g/kg Matéria Fibrosa (máx.) 3,00% 30 g/kg Cálcio (máx.) 0,50% 5.000 mg/kg Cálcio (mín.) 0,20% 2.000 mg/kg Fósforo  (máx.) 0,50% 5.000 mg/kg Fósforo (mín.) 0,20% 2.000 mg/kg Sódio (mín.) 0,15% 1.500 mg/kg Energia Metabolizável   4.233 kcal/kg /2,5 kcal/unidade.\n\n\n\n _________________________________________________________________________\n\nComposição:\nFarinha de trigo, farinha de torresmo, albumina de ovo, colágeno hidrolisado, leite em pó desnatado, ovo em pó, proteína isolada de soja, amido de milho, dextrina, fibra de trigo, quirera de arroz, banha refinada, cloreto de sódio, ácido cítrico, antioxidantes (concentrado de tocoferóis e extrato de alecrim), carbonato de cálcio, cloreto de amônio, difosfato trissódico, extrato de urucum, hidrolisado de fígado suíno, metionina, parede celular de levedura (mananoligossacarídeos) (0,2%), sulfato de amônio, biotina, zinco aminoácido quelato.",
             "images":[
                 "./img/produto_14/529_7897348207993.png"
@@ -179,7 +179,7 @@
             "id": 15,
             "name": "Royal Ageing Feeline 12+ Wet 85g",
             "price": 13.46,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "O Ração Úmida Royal Canin Ageing 12+ para Gatos Adultos Acima de 12 anos 85g proporciona:\n\n- Indicada para gatos idosos;\n\n- Auxilia o envelhecimento saudável dos cães de porte pequeno;\n\n- Contém um complexo de antioxidantes para ajudar a neutralizar os radicais livres;\n\n- Auxilia na preservação da função renal de cães idosos de porte pequeno;\n\n- Ajuda a manter uma pele e pelagem saudáveis;\n\n\n\n_________________________________________________________________________\n\nCódigo de barras: 7896181217480\n_________________________________________________________________________\n\nIndicação:  Indicado para cães.\n_________________________________________________________________________\n\nComposição: \nÁgua,carne de salmão, fígado suíno, vísceras de frango, tripolifosfato de sódio, pirofosfato tetra potássico, sulfato de cálcio, carragena, celulose em pó, farinha de trigo, proteína de arroz, sulfato de cobre, iodato de cálcio, sulfato de zinco, sulfato de manganês, sulfato de ferro, vitaminas (E, D3, B1, B2, B6, B12, PP), cloreto de colina, ácido pantotênico, biotina, zinco aminoácido quelato, manganês aminoácido quelato, metionina, taurina",
             "images":[
                 "./img/produto_15/01.png"
@@ -189,7 +189,7 @@
             "id": 16,
             "name": "Symbioplex Snacks 135g Digestive",
             "price": 36.50,
-            "category": "Petisco",
+            "amout": 5.0,
             "description": "A Bifinho Spin Pet Symbioplex Digestive Mini Para Cães 135g proporciona:\n\n\n- Produzido com probióticos, prebióticos e extratos naturais;\n\n- Muito palatável, o que auxilia na administração dos petiscos e interação com seu pet;\n\n- Auxilia no sistema digestivo do seu cachorro.\n\n_________________________________________________________________________\n\nCódigo de barras: 7898957709571\n_________________________________________________________________________\n\nIndicação:  Indicada para cães.\n_________________________________________________________________________\n\nComposição:\nCarne e Miúdos de Suínos, Quirera de Arroz, Alho em Pó, Acabaxi, Aditivo Prebiótico, Aditivo Probiótico, Glutamina, Farelo de Soja, Farelo de Milho, Folhas de Boldo do Chile, Glicerina, Sorbato de Potássio, Tripolifosfato de Sódio e Cloreto de Sódio.",
             "images":[
                 "./img/produto_16/01.png"

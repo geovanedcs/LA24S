@@ -32,7 +32,6 @@ export function carrosselComponent() {
 
     innerDiv.appendChild(card_car1);
     innerDiv.appendChild(card_car2);
-    innerDiv.appendChild(card_car3);
 
     carrosselDiv.appendChild(innerDiv);
 
@@ -57,19 +56,18 @@ export function carrosselComponent() {
         const divTexto = document.createElement('div');
         divTexto.classList.add('carousel-caption', 'd-none', 'd-md-block');
         divTexto.innerHTML = `<h5>${txth5}</h5> <p>${txtp}</p>`;
+        divTexto.style.backgroundColor = "rgba(0,0,0,0.5)";
         divItem.appendChild(divTexto);
 
         return divItem;
 
     }
 
-    const img1 = imgCar('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp', 'Sunset Over the City', 'First slide label', 'Nulla vitae elit libero, a pharetra augue mollis interdum.', true);
-    const img2 = imgCar('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp', 'Canyon at Night', 'Second slide label', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', false);
-    const img3 = imgCar('https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp', 'Cliff Above a Stormy Sea', 'Third slide labe', 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.', false);
+    const img1 = imgCar('./img/ad1.png', 'Propaganda 1', 'Fim de ano chegou!', 'Ofertas especiais para tu presentear seu melhor amigo', true);
+    const img2 = imgCar('./img/ad2.png', 'Propaganda 2', 'Bolim', 'Uma seleção de bolos especiais para seu pet!', false);
 
     divImgCar.appendChild(img1);
     divImgCar.appendChild(img2);
-    divImgCar.appendChild(img3);
 
     carrosselDiv.appendChild(divImgCar);
 
