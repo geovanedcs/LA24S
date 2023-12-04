@@ -4,8 +4,11 @@ import { cardComponent } from "../js/component/card.js";
 import { footerComponent } from "../js/component/footer.js";
 
 window.onload = async function(){
-    const prods = await getProducts();
-    localStorage.setItem('products', JSON.stringify(prods));
+    if(localStorage.getItem('products') === null){
+        const prods = await getProducts();
+        localStorage.setItem('products', JSON.stringify(prods));
+    }
+    const prods = JSON.parse(localStorage.getItem('products'));
     const appHome = document.getElementById("appBody");
     appHome.style.backgroundColor = "#FF8C42";
     appHome.appendChild(navbarComponent());
